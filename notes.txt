@@ -1,0 +1,10 @@
+# iter('foobar')                             # String
+# iter(['foo', 'bar', 'baz'])                # List
+# iter(('foo', 'bar', 'baz'))                # Tuple
+# iter({'foo', 'bar', 'baz'})                # Set
+# iter({'foo': 1, 'bar': 2, 'baz': 3})       # Dict
+
+# >>> aren’t iterable
+# iter(42)                                   # Integer
+# iter(3.1)                                  # Float
+# iter(len)                                  # Built-in function

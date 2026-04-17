@@ -1,6 +1,8 @@
 # 🛑 Sets: Unique collections
 # No duplicates allowed! 🚫👯‍♀️
 
+print("...........")
 unique_colors = {"red 🔴", "green 🟢", "blue 🔵"}
-unique_colors.add("red 🔴") # Won't be added again!
+unique_colors.add("red 🔴")  # Won't be added again!
 print(f"Unique colors: {unique_colors}")
+print(type(unique_colors))  # <class 'set'>

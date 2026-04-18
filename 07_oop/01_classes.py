@@ -12,5 +12,9 @@ class Dog:
         print(f"{self.name} says Woof! 🐶")
 
 
+print(type(Dog))  # <class 'type'>
+
 my_dog = Dog("Buddy")
 my_dog.bark()
+
+print(type(my_dog))  # <class '__main__.Dog'>

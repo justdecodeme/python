@@ -20,6 +20,7 @@ results = [heavy_calculation(num) for num in numbers if heavy_calculation(num) >
 
 # Walrus: We call it once, store the result in 'res', and use it twice
 results = [res for num in numbers if (res := heavy_calculation(num)) > 30]
+# ^ list comprehension + assignment inside condition
 
 print(results)
 
